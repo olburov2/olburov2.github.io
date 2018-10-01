@@ -1,0 +1,55 @@
+﻿/*БАНЕР*/
+.Baner {
+				border: 1px solid #E2E2E2;
+				width: 100% /* Ширина */;
+				height: 50px /* Высота */;
+				background-color: #FFFFFF/* Цвет фона */;
+				margin-top: 20px/* Отступ сверху */;
+				margin-bottom: 20px/* Отступ снизу */;
+}
+/*ЯЧЕЙКА С КАРТИНКОЙ*/
+.Baner th {
+				width: 57% /* Ширина ячейки с рисунком */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание текста по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+}
+/*КАРТИНКА*/
+.Baner th img {
+				display: block/* Растягивает картинку на всю ширину ячейки */;
+}
+/*ЯЧЕЙКА С ТЕКСТОМ*/
+.Baner td {
+				width: 43% /*Ширина ячейки с текстом*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				padding-right: 25px/*Отступ текста справа от края*/;
+				padding-left: 0px/*Отступ текста слева от края*/;
+}
+
+/*ЗАГОЛОВОК*/
+.Baner h2 {
+				color: #000000/*Цвет ЦЕНЫ*/;
+				line-height: 120%; /* Расстояние между строк */;
+				font-size: 210%;
+				margin-bottom: 20px;
+				margin-top: 0px;
+				margin-left: 15px;
+}
+
+
+/*МАРКИРОВАННЫЙ СПИСОК*/
+.Baner ul {
+				margin-left: 0px/*Смещает список влево*/;
+				color: #000000;
+				font-size: 120%;
+				line-height: 150%; /* Расстояние между строк */
+}
+/*ЦЕНА*/
+.Baner h3 {
+				margin-left: 0px/*Отступ слева ЦЕНЫ*/;
+				color: #000000/*Цвет ЦЕНЫ*/;
+				font-size: 170%;/* Размер шрифта */;
+				margin-left: 15px;
+}

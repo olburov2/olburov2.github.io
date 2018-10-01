@@ -1,0 +1,62 @@
+﻿/*ШАПКА СВЕРХУ САЙТА*/
+.Shapka {
+				border-style: solid;
+				border-width: 0px 0px 1px 0px;
+				border-color: #E1E1E1;
+				width: 100% /* Ширина */;
+				max-width: auto /*Максимальная ширина*/;
+				height: auto /* Высота */;
+				margin-top: 10px/* Отступ сверху */;
+				margin-bottom: 15px /* Для фиксированного меню ставь значение 75, для обычного 15 */;
+				
+}
+/*ЯЧЕЙКА С ЛОГОТИПОМ*/
+.Shapka th {
+				width: auto /* Ширина */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+				padding-left: 15px/*Отступ слева*/;
+				padding-top: 5px/*Отступ справа*/;
+				display: block/*Скрывает ячейку с описанием*/;
+				padding-bottom: 20px;
+
+}
+/* ЯЧЕЙКА С ОПИСАНИЕМ СКРЫТА В МОБИЛЬНОЙ ВЕРСИИ */
+.Shapka td {
+				width: auto/*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Выравнивание текста по левой стороне*/;
+				padding-left: 10px; /* отступ слева внутри ячейки */;
+				font-size: 120% /*Размер шрифта*/;
+				display: none/*Скрывает ячейку с описанием*/;
+				padding-top: 10px;
+}
+/* ЯЧЕЙКА С ТЕЛЕФОНОМ  */
+.Shapka td+td {
+				padding-top: 30px;
+				width: auto/*Ширина*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Выравнивание текста по правой стороне*/;
+				padding-left: 20px; /* отступ слева внутри ячейки */;
+				display: none/*Скрывает ячейку с описанием*/;
+				padding-bottom: 15px;
+}
+
+/* ЯЧЕЙКА С ТЕЛЕФОНОМ ТЕКСТ */
+.Shapka td+td p {
+				font-size: 150%;
+				line-height: 70% /*Расстояние между строк*/;
+				margin-top: 0px;
+				margin-bottom: 10px;
+}
+
+
+
+/*МЕНЯЕТ ЦВЕТ ЛОГОТИПА ПРИ НАВЕДЕНИИ*/
+.Shapka img:hover {
+				-webkit-filter: grayscale(50%)/* Меняет насыщенность рисунка */;
+				cursor: pointer /* Меняет внешний вид курсора на руку */;
+}

@@ -1,0 +1,133 @@
+﻿/*1-ЯЧЕЙКА С КНОПКАМИ В ШАПКЕ*/
+.Shapka td {
+				display: none/*Скрывает ячейку с описанием*/;
+}
+/*2- ЯЧЕЙКА С ТЕЛЕФОНОМ В ШАПКЕ */
+.Shapka td + td {
+				
+				display: none/*Скрывает ячейку с описанием*/;
+}
+
+/*КНОПКА МЕНЮ В ЛЕВОМ НИЖНЕМ УГЛУ*/
+
+.mob-menu-ssylka {
+				background-color: #000000 /*Цвет кнопки*/;
+}
+
+.biblio_book_name {
+    font-size: 13px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    }
+
+.biblio_book_author{
+    line-height: 30px;
+    text-align:center;
+  
+}
+
+.biblio_book_author_title {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.biblio_book_author_title_1 {
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.biblio_book_img {
+				width: auto;
+				height: 600px;
+				float: left; 
+				border-style: solid; 
+				border-width: 1px; 
+				margin-top:45px;
+}
+
+.biblio_book_left, biblio_book_center {
+    vertical-align: top;
+    text-align:center;
+}
+.biblio_book_left {
+    padding-right: 50px;
+    width: 1%;
+}
+.column {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.biblio_book_descr {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-size: 12px;
+    margin-left:15px;
+    text-align:left;
+}
+
+.biblio_book_descr_caption{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-right: 0px;
+}
+
+#accordeon {
+    width: auto;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px grey;
+    margin: 10px;
+}
+
+.acc-head {
+    padding: 5px 10px;
+    background: #c0c0c0;
+    cursor: pointer;
+}
+
+.acc-text {
+				font-weight: bold; 
+				width: auto;
+}
+
+.acc-body {
+    padding: 10px;
+    border-bottom: 0px solid #c0c0c0;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.buttom {
+		border-top: 1px solid #c0c0c0;
+		padding-top:5px;		
+}
+
+.link {
+                font-size: 17px;
+				border-width: 1px /* Толщина подчеркивания */;
+				color: #006699/* Цвет ссылки */;
+				text-decoration: none;
+				border-bottom-style: none /* Тип линии подчеркивания */;
+				border: 2px;
+}
+.link:hover {
+				color: #006699/* Цвет ссылки */;
+				text-decoration: none;
+				border-bottom-style: solid /* Тип линии подчеркивания */;
+				border-width: 1px /* Толщина подчеркивания */;	
+
+}
+.Current
+   {
+       font-size: 17px;
+       color: #000000;
+   }
+.Current:hover{
+				color: #000000/* Цвет ссылки */;
+				text-decoration: none;
+				border-bottom-style: none /* Тип линии подчеркивания */;
+
+}

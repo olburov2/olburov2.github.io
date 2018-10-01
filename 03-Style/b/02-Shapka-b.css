@@ -1,0 +1,69 @@
+﻿/*ШАПКА САЙТА*/
+.Shapka {
+				width: 100% /* Ширина */;
+				height: auto /* Высота */;
+				border: 0px solid #E1E1E1 /* Толщина, внешний вид , цвет границы */;
+				margin-top: 20px/* Отступ над шапкой */;
+				margin-bottom: 20px;
+				
+}
+/*ЯЧЕЙКА С ЛОГОТИПОМ*/
+.Shapka th {
+				width: 27% /* Ширина ячейки с ЛОГОТИПОМ */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Текст слева*/;
+}
+/*КАРТИНКА*/
+.Shapka img {
+				display: block/* Растягивает картинку на длину блока */;
+				
+
+}
+/*ЯЧЕЙКА С ОПИСАНИЕМ*/
+.Shapka td {
+				width: 43% /*Ширина ячейки с ОПИСАНИЕМ*/;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Выравнивание текста по левой стороне*/;
+				padding-right: 0px; /* отступ справа внутри ячейки */;
+				padding-left: 50px; /* отступ слева внутри ячейки */;
+				font-size: 110% /*Размер шрифта внутри ячейки*/;
+}
+/*ЯЧЕЙКА С ТЕЛЕФОНОМ*/
+.Shapka td + td {
+				width: 27% /*Ширина ячейки с ТЕЛЕФОНОМ */;
+				height: auto /* Высота */;
+				vertical-align: middle /* Выравнивание по вертикали: середина */;
+				text-align: left /*Выравнивание текста по правой стороне*/;
+				padding-left: 0px /*Убирает Отступ текста с левой стороны*/;
+				padding-right: 5px; /* отступ справа внутри ячейки */;
+				padding-top: 0px;
+				margin-bottom: 0;
+}
+
+/* ЯЧЕЙКА С ТЕЛЕФОНОМ ТЕКСТ */
+.Shapka td+td p {
+				font-size: 150%;
+				line-height: 100% /*Расстояние между строк*/;
+				margin-top: 5px;
+				margin-bottom: -5px;
+}
+
+/*МЕНЯЕТ ЦВЕТ ЛОГОТИПА ПРИ НАВЕДЕНИИ*/
+.Shapka img:hover {
+				-webkit-filter: grayscale(50%)/* Меняет насыщенность рисунка */;
+				cursor: pointer /* Меняет внешний вид курсора на руку */;
+}
+
+/*ТЕКСТ*/
+.Shapka p {
+				font-size: 100% /*Размер шрифта*/;
+				line-height: 100% /*Расстояние между строк*/;
+				margin: 15px 0px 5px 15px /*Отступы сверху справа снизу слева*/;
+				font-weight: 300 /* Убирает жирное начертание */;
+				text-align: left;
+}
+
+.Shapka a {
+				border-bottom-width: 0px;}

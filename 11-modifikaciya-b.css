@@ -1,0 +1,194 @@
+﻿/*1-ЗАГОЛОВОК В БАНЕРЕ*/
+.Baner h2 {
+				color: #000000/*Цвет шрифта*/;
+				font-size: 270%/*Размер шрифта*/;
+}
+/*2-МАРКИРОВАННЫЙ СПИСОК В БАНЕРЕ*/
+.Baner ul {
+				color: #000000/*Цвет шрифта*/;
+				font-size: 130%/*Размер шрифта*/;
+}
+/*3-ТЕКСТ В БАНЕРЕ*/
+.Baner p {
+				color: /*Цвет шрифта*/;
+				font-size: 130%/*Размер шрифта*/;
+}
+/*4-ЦЕНА БАНЕРЕ*/
+.Baner h3 {
+				color: #000000/*Цвет шрифта*/;
+				font-size: 190%;/* Размер шрифта */;
+}
+/*5-ЗАМЕНА ШРИФТА НА ВСЕМ САЙТЕ*/
+body {
+				font-family: Roboto, Arial /*Шрифт для всего сайта */;
+}
+/*6-ТЕКСТ*/
+p {
+				font-size: 130% /*Размер шрифта*/;
+				line-height: 175% /*Расстояние между строк*/;
+				margin: 15px 0px 25px 0px /*Отступы сверху справа снизу слева*/;
+				font-weight: 300 /* Убирает жирное начертание */;
+}
+/*7-ЗАГОЛОВОК 1*/
+h1 {
+				font-size: 270% /* Размер шрифта */;
+				line-height: 125% /* Расстояние между строк */;
+				margin: 25px 0px 15px 0px /* Отступы сверху справа снизу слева */;
+				font-weight: 300 /* Убирает жирное начертание */;
+}
+/*8-ЗАГОЛОВОК 2*/
+h2 {
+				font-size: 240% /* Размер шрифта */;
+				line-height: 125% /* Расстояние между строк */;
+				margin: 20px 0px 15px 0px /* Отступы сверху справа снизу слева */;
+				font-weight: 300 /* Убирает жирное начертание */;
+}
+/*9-ЗАГОЛОВОК 3*/
+h3 {
+				font-size: 230% /* Размер шрифта */;
+				line-height: 125% /* Расстояние между строк */;
+				margin: 15px 0px 15px 0px /* Отступы сверху справа снизу слева */;
+				font-weight: 300 /* Убирает жирное начертание */;
+}
+/*11-ЦВЕТ ЗАДНЕГО ФОНА*/
+body {
+				background-color: #F7F7F7/*Фон страницы*/;
+				
+}
+/*12-ЗАДНИЙ ФОН КАРТИНКА*/
+body1 {
+				background-attachment: fixed;
+				-moz-background-size: 100%; /* Firefox 3.6+ */;
+				-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */;
+				-o-background-size: 100%; /* Opera 9.6+ */;
+				background-size: 100%; /* Современные браузеры */
+}
+/*13-ОФОРМЛЕНИЕ ЛИСТА*/
+#list {
+				width: 950px /*Ширина белого листа сайта*/;
+				border: 2px solid #E4E4E4 /*Контур толщина, начертание, цвет*/;
+				box-shadow: 0px 0px 0px 0px #EAEAEA /*Тень(горизонт, вертикаль, размытие, толщина)*/;
+				background-color: #FCFCFC /*Фон листа*/;
+				border-radius: 10px /*Скругление углов*/;
+}
+
+.biblio_book_name {
+    font-size: 18px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.biblio_book_author{
+    line-height: 30px;
+    text-align:center;
+  
+}
+
+.biblio_book_author_title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.biblio_book_author_title_1 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.biblio_book_left, biblio_book_center {
+    vertical-align: top;
+    text-align:center;
+}
+.biblio_book_left {
+    padding-right: 50px;
+    width: 1%;
+}
+.column {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.biblio_book_descr {
+    margin-bottom: 30px;
+    margin-top: 0px;
+    font-size: 12px;
+    margin-left:15px;
+    text-align:left;
+}
+
+.biblio_book_descr_caption{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    margin-right: 460px;
+}
+
+.biblio_book_img {
+				width: 240px;
+				height: auto;
+				float: left; 
+				border-style: solid; 
+				border-width: 1px; 
+				margin-top:45px;
+}
+
+
+#accordeon {
+    width: auto;
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px grey;
+    margin: 10px;
+}
+
+.acc-head {
+    padding: 5px 10px;
+    background: #c0c0c0;
+    cursor: pointer;
+}
+
+.acc-text {
+				font-weight: bold; 
+				padding-left:745px
+}
+
+
+.acc-body {
+    padding: 10px;
+    border-bottom: 0px solid #c0c0c0;
+    margin-bottom: 5px;
+    display: none;
+}
+
+.buttom {
+		border-top: 1px solid #c0c0c0;
+		padding-top:5px;		
+}
+
+.link {
+                font-size: 17px;
+				border-width: 1px /* Толщина подчеркивания */;
+				color: #006699/* Цвет ссылки */;
+				text-decoration: none;
+				border-bottom-style: none /* Тип линии подчеркивания */;
+				border: 2px;
+}
+.link:hover {
+				color: #006699/* Цвет ссылки */;
+				text-decoration: none;
+				border-bottom-style: solid /* Тип линии подчеркивания */;
+				border-width: 1px /* Толщина подчеркивания */;	
+
+}
+.Current
+   {
+       font-size: 17px;
+       color: #000000;
+   }
+.Current:hover{
+				color: #000000/* Цвет ссылки */;
+				text-decoration: none;
+				border-bottom-style: none /* Тип линии подчеркивания */;
+
+}
